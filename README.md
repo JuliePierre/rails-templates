@@ -8,11 +8,12 @@ using [Rails Templates](http://guides.rubyonrails.org/rails_application_template
 
 Get a minimal rails 5 app ready to be deployed on Heroku with Materialize, Simple form and
 debugging gems.
+Removed jquery-ui from application.scss compared to Karine's template
 
 ```bash
 rails new \
   -T --database postgresql \
-  -m https://raw.githubusercontent.com/karine03/rails-templates/master/minimal.rb \
+  -m https://raw.githubusercontent.com/JuliePierre/rails-templates/master/minimal.rb \
   CHANGE_THIS_TO_YOUR_RAILS_APP_NAME
 ```
 
